@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+
+<style>
+  .overlay{
+            height:60vh;
+             width:65%;
+            background: #000000;
+            background: -webkit-linear-gradient(to right, #b3afaf, #bbb6b6); 
+            background: linear-gradient(to right, #b6b0b0, #dfdbdb); 
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            opacity: 0.4;
+           display:flex;
+           justify-content: center;
+           align-items: center;
+            margin-left:260px;
+            margin-top:180px;
+        }
+        .image{
+            position: absolute;
+            background-image: url('studio.jpg');
+            background-position: center;
+             background-size: cover;
+             height: 100vh;
+              width: 100%;
+             
+              
+                    
+        }
+        .class2{
+          
+   height:100vh;
+    width: 100%;
+   
+   position: relative;
+   display: block;
+  
+ 
+
+}
+.mini3{
+height:10vh;
+width:40%;
+
+position: absolute;
+align-self: center;
+margin-top:300px;
+margin-left: 530px;
+
+}
+.mini4{
+  height:10vh;
+width:50%;
+
+position: absolute;
+margin-top:450px;
+margin-left: 550px;
+}
+@media only screen and (max-width:600px)
+{
+  .overlay{
+    margin-left: 90px;
+    margin-top: 40px;
+    height:80vh;
+ 
+  }
+  .mini3{
+    margin-top: 100px;
+margin-left: 125px; 
+position: absolute;
+
+  }
+  .mini4{
+    margin-top: 280px;
+margin-left: 150px;
+position: absolute;
+
+
+  }
+  .btn{
+    height:40px; 
+    width:200px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+
+  
+    
+  }
+  
+}
+
+  
+  
+  
+</style>
+
+
+  </head>
+  <body>
+   <!-- As a heading -->
+
+ 
+    <nav class="navbar " style="background-color: black;">
+      <span class="navbar-brand mb-0 h1 " style="font-size:30px; font-family:'Yeon Sung', cursive; color:white;">Breaking News</span>
+        <span class="navbar-brand mb-0 mr-5 h1"> <img src="live.png" style="height:50px; width:110px; color:white;">
+      </span> </nav>
+      <div class="class2">
+          <div class="image"></div>
+          <div class="overlay">  </div>
+          <div class="mini3">
+          
+              <button type="button" onclick="btn1()"  class="btn btn-danger btn-lg m-3 wow fadeInUp">Entertainment News&nbsp; <i class="fas fa-video"></i> </button>&nbsp;&nbsp;
+         
+        
+              <button type="button"  onclick="btn2()"   class="btn btn-danger btn-lg ml-4 wow fadeInUp" >Sports News &nbsp; &nbsp; &nbsp; <i class="far fa-futbol"></i>&nbsp;</button>
+        
+            </div>
+         <div class="mini4">
+           
+            <button type="button"  onclick="btn3()"   class="btn btn-danger btn-lg mr-5 wow fadeInUp ">Business News  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <i class="far fa-handshake"></i> </button>
+          
+       
+            <button type="button" onclick="btn4()" class="btn btn-danger btn-lg  wow fadeInUp">Science News &nbsp; <i class="fas fa-cloud-sun"></i></button>
+   
+          </div>
+      
+       </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/wow.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+    <script>
+        new WOW().init();
+        </script>
+        <script>
+          function btn1(){
+            window.location="entertain.html";
+          }
+        </script>
+         <script>
+            function btn2(){
+              window.location="sports.html";
+            }
+          </script>
+           <script>
+              function btn3(){
+                window.location="business.html";
+              }
+            </script>
+             <script>
+                function btn4(){
+                  window.location="science.html";
+                }
+              </script>
+  </body>
+</html>
